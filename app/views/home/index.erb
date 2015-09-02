@@ -1,0 +1,9 @@
+<h1>Home#index</h1>
+
+<a href = "/users/sign_in">log in</a>
+
+<% if user_signed_in? %>
+<p><%= current_user.email %></p>
+<p><%= current_user.nickname %></p>
+<% end %>
+
