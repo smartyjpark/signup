@@ -1,12 +1,13 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
   
-  #config.action_mailer.default_url_options = { :host => 'https://devise-real-last-smartyjpark.c9.io' }
+  config.action_mailer.default_url_options = { :host => 'devise-real-last-smartyjpark.c9.io' }
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
      	 	 api_key: 'key-cc60ebfe6e03c4951455e3192e10ace1',
    	   	 domain: 'sandbox2cd991c0472d4de4abdcabd4d5700dfc.mailgun.org'
   }
+  
   
   
   
