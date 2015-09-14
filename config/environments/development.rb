@@ -7,13 +7,6 @@ Rails.application.configure do
      	 	 api_key: 'key-cc60ebfe6e03c4951455e3192e10ace1',
    	   	 domain: 'sandbox2cd991c0472d4de4abdcabd4d5700dfc.mailgun.org'
   }
-  
-  
-  
-  
-  
-
-
 
 
   # In the development environment your application's code is reloaded on

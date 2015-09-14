@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'mini_magick'
+gem 'fog'
+gem 'carrierwave'
 gem 'mailgun_rails'
 gem 'devise'
 

@@ -1,9 +1,14 @@
-<h1>Home#index</h1>
-fuck
-<a href = "/users/sign_in">log in</a>
+<% if current_user %>
 
-<% if user_signed_in? %>
-<p><%= current_user.email %></p>
-<p><%= current_user.nickname %></p>
+    <img src ="<%= current_user.profile_img %>">
+
+    
+    <p><%= current_user.nickname %>로 로그인됨</p>
+    <e><%= link_to '프로필 사진 확인' , "/home/profile" %></e></br>
+    <e><%= link_to '로그아웃하기' , destroy_user_session_path %></e>
+<% else %>
+    <%=link_to '로그인하기' , user_session_path %>
 <% end %>
+
+
 
